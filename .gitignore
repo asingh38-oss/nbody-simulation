@@ -1,0 +1,31 @@
+# Create .gitignore for C++ projects
+@'
+# Compiled files
+*.exe
+*.o
+*.obj
+*.out
+
+# Executables
+nbody
+a.out
+
+# Output files
+*.tsv
+*.log
+*.pdf
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*~
+'@ | Out-File -FilePath .gitignore -Encoding ASCII
